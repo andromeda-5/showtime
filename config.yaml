@@ -1,0 +1,10 @@
+baseURL: /
+title: "My New Hugo Site"
+defaultContentLanguage: en
+languages:
+        en:
+                lang: en
+                languageName: English
+                weight: 1
+theme: "elevage"
+MetaDataFormat: "yaml"
