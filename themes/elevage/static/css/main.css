@@ -420,7 +420,7 @@ br {
 }
 
 /* mobile screen */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     
     /* menu stuff */
     .menu-div a/*:not(:first-child)*/ {
