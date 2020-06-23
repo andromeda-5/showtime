@@ -411,9 +411,58 @@ br {
     width: 40px;
 }
 
+.menu-div .icon {
+    display: none;
+}
+
 :target::before {
   content: "";
   display: block;
   height: 100px; /* fixed header height*/
   margin: -100px 0 0; /* negative fixed header height */
+}
+
+/* mobile screen */
+@media screen and (max-width: 600px) {
+    /* menu stuff */
+    .menu-div a/*:not(:first-child)*/ {
+        display: none;
+    }
+    .menu-div a.icon {
+        float: right;
+        display: block;
+    }
+    .menu-div.responsive {
+        position: relative;
+    }
+    .menu-div.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu-div.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* tablet portrait*/
+@media only screen and (min-width: 600px) {
+
+}
+
+/* tablet landscape */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* large devices */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* extra large */
+@media only screen and (min-width: 1200px) {
+
 }
