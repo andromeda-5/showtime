@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding:0;
     font-size: 20px;
+    color: #464e59;
 }
 
 .front-page {
@@ -354,7 +355,7 @@ input {
 }
 
 .contact-person-title {
-    color: #464e59;
+    color:#57c26e;
     /*padding-top: 0.5em;
     padding-bottom: 1em;*/
 }
@@ -402,15 +403,22 @@ br {
     font-size: 16px;
     font-family: "MinervaModern-Regular";
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    padding: 0;
+    padding:0;
+}
+
+.logo-title {
+    padding-left: 3%;
+    white-space: nowrap;
 }
 
 .menu-logo {
-    padding-top: 1%;
     text-decoration: none;
+    display:flex;
+    align-items: center;
 }
 
 .menu-logo a {
