@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding:0;
     font-size: 20px;
-    color: #464e59;
 }
 
 .front-page {
@@ -284,50 +283,29 @@ input {
     color: red;
 }
 
-.footer-of-sorts {
+.contact {
     margin:0;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 18px;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+    /*font-size: 18px;*/
     /*display: flex;*/
     position: relative;
     
-    background-color: #EEEEEE;
-    color: #464e59;
+    background-color: white;
+    color: #57c26e;
     font-family: 'MinervaModern-Regular';
-    /*text-align: center;*/
-
-    white-space: nowrap;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.footer-logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-logo img {
-    width: 100px;
-}
-
-.contact {
-    background-color: #EEEEEE;
-}
-
-.contact-sect {
-    display: flex;
+    text-align: center;
 }
 
 .contact-heading {
-    font-size: 26px;
-    padding-bottom: 5%;
+    font-size: 38px;
+    padding-bottom: 1%;
 }
 
 .contact-address-title {
-    padding-bottom: 1%;
+    padding-bottom: 3%;
 }
 
 .contact-address-street {
@@ -336,34 +314,22 @@ input {
 
 .contact-address-city {
     color: #464e59;
-    padding-bottom: 2%;
 }
 
 .contact-sect {
     /*padding-right: 15%;*/
 }
 
-.contact-address {
-    margin-right: 5%;
-}
-
 .contact-person {
     /*padding-top: 1%;*/
     /*padding-right: 15%;
     vertical-align: baseline;*/
-    margin-left: 1%;
 }
 
 .contact-person-title {
-    color:#57c26e;
+    color: #464e59;
     /*padding-top: 0.5em;
     padding-bottom: 1em;*/
-}
-
-.social-media img {
-    padding-top: 3%;
-    padding-right: 1%;
-    width: 20px;
 }
 
 .contact-person-phone {
@@ -390,7 +356,6 @@ br {
     width: 100%;
     background-color: white;
     z-index: 1;
-    box-shadow: 2px 2px 2px #EEEEEE;
 }
 
 .is_stuck {
@@ -404,24 +369,15 @@ br {
     font-size: 16px;
     font-family: "MinervaModern-Regular";
     justify-content: space-between;
-    align-items: center;
 }
 
 .logo {
-    padding:0;
-}
-
-.logo-title {
-    padding-left: 3%;
-    white-space: nowrap;
-    text-decoration: none;
-    color: #464e59;;
+    padding: 0;
 }
 
 .menu-logo {
+    padding-top: 1%;
     text-decoration: none;
-    display:flex;
-    align-items: center;
 }
 
 .menu-logo a {
