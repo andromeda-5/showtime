@@ -390,6 +390,7 @@ br {
     width: 100%;
     background-color: white;
     z-index: 1;
+    box-shadow: 2px 2px 2px #EEEEEE;
 }
 
 .is_stuck {
