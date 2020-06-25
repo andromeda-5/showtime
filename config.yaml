@@ -8,4 +8,3 @@ languages:
                 weight: 1
 theme: "elevage"
 MetaDataFormat: "yaml"
-publishDir: "docs"
