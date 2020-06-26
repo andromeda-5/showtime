@@ -6,7 +6,7 @@
 .site {
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 24px;
+    font-size: 20px;
     color: #464e59;
 }
 
@@ -546,6 +546,33 @@ br {
         position: absolute;
         top: 92%;
         left: 45%;
+    }
+
+    /* footer stuff */
+
+    .footer-of-sorts {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .footer-logo {
+        display: block;
+    }
+
+    .cheval-spec-desc {
+        display: block;
+        font-size: 14px;
+        padding-right: 5%;
+    }
+
+    .site {
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .cheval-info {
+        white-space: unset;
     }
 
 }
