@@ -1,35 +1,62 @@
 {{ partial "header.html" .}}
 <div class="site">
-    <div class="home">
-        <div class="sticky">
-            <div id="top" class="is_stuck">
-                <div class="menu-logo">
-                    <a href="/">
-                        <img src="../img/logo.png"/>
-                    </a>
-                    <a href="/" class="logo-title">
-                        ELEVAGE DE GONTREUIL
-                    </a>
-                </div>
-                <div class="menu-div" id="top-menu">
-                    <a href="#etalon">
-                        L'etalon
-                    </a>
-                    <a href="#juments">
-                        Les Juments
-                    </a>
-                    <a href="#poulains">
-                        Les Poulains
-                    </a>
-                    <a href="#contact">
-                        Contact
-                    </a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-            </div>
+    <nav class="navbar sticky-top navbar-light navbar-expand-md navbar-expand-sm justify-content-between ml-auto">
+        <div class="menu-logo">
+            <a href="/">
+                <img src="../img/logo.png"/>
+            </a>
+            <a href="/" class="logo-title">
+                ELEVAGE DE GONTREUIL
+            </a>
         </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#etalon">
+                        L'étalon
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkJuments" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Les Juments</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkJuments">
+                        <a class="dropdown-item" href="#nina">Nina</a>
+                        <a class="dropdown-item" href="#attique">Attique</a>
+                        <a class="dropdown-item" href="#aygush">Ay Gush</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkPoulains" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Les Poulains</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkPoulains">
+                        <a class="dropdown-item" href="#ithaque">Ithaque</a>
+                        <a class="dropdown-item" href="#jugurtha">Jugurtha</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <!-- <a href="#etalon">
+                L'etalon
+            </a>
+            <a href="#juments">
+                Les Juments
+            </a>
+            <a href="#poulains">
+                Les Poulains
+            </a>
+            <a href="#contact">
+                Contact
+            </a> -->
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+        </div>
+    </nav>
+    <div class="home">
         <div class="scrolly">
             <p class="main-desc desc-1">
                 L’élevage de Gontreuil produit des chevaux équilibrés et polyvalents qui feront des montures idéales pour une équitation de loisir.
@@ -143,7 +170,7 @@
                     LES JUMENTS
                 </h1>
             </div>
-            <div class="indiv nina">
+            <div class="indiv nina" id="nina">
                 <div class="floaty-side">
                     <h1 class="cheval-indv-title nina-title">
                         NINA DE LA BRUYÈRE
@@ -227,7 +254,7 @@
                     </div>
                 </div>
             </div>
-            <div class="indiv attique">
+            <div class="indiv attique" id="attique">
                 <div class="floaty-side">
                     <h1 class="cheval-indv-title attique-title">
                         ATTIQUE DE BELOEIL
@@ -303,7 +330,7 @@
                     </div>
                 </div>
             </div>
-            <div class="indiv aygush">
+            <div class="indiv aygush" id="aygush">
                 <div class="floaty-side">
                     <h1 class="cheval-indv-title aygush-title">
                         AY GUSH
@@ -408,7 +435,7 @@
             <div class="content-title poulains-title">
                 <h1 class="poulains-heading">LES POULAINS</h1>
             </div>
-            <div class="indiv ithaque">
+            <div class="indiv ithaque" id="ithaque">
                 <div class='floaty-side'>
                     <h1 class="cheval-indv-title ithaque-title">
                         ITHAQUE DE GONTREUIL
@@ -490,7 +517,7 @@
                     </div>
                 </div>
             </div>
-            <div class="indiv jugurtha">
+            <div class="indiv jugurtha" id="jugurtha">
                 <div class="floaty-side">
                     <h1 class="cheval-indv-title jugurtha-title">
                         JUGURTHA DE GONTREUIL 
@@ -515,7 +542,7 @@
                                 <img class="d-block w-100 elevage-img" src="img/chevaux/jugurtha/jugurtha-temp1.jpg">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100 elevage-img" src="img/chevaux/jugurtha/jugurtha-temp2.jpg">
+                                <img class="d-block w-100 elevage-img" src="img/chevaux/jugurtha/jugurtha-temp1.jpg">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators-jugurtha" role="button" data-slide="prev">
