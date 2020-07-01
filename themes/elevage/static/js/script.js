@@ -1,1 +1,6 @@
-// import 'bootstrap/dist/js/bootstrap.bundle';
+console.log('first blah')
+$(document).ready(function () {
+    $("nav").find("li").on("click", "a", function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+});
