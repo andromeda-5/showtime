@@ -6,5 +6,5 @@ languages:
                 lang: en
                 languageName: English
                 weight: 1
-theme: "elevage"
+theme: "showtime"
 MetaDataFormat: "yaml"
