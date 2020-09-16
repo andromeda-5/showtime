@@ -20,7 +20,7 @@
     margin: 0;
 }
 
-.scrolly {
+.site-description {
     margin-top: 15%;
     margin-bottom: 8%;
 }
@@ -500,7 +500,7 @@ br {
         text-align: left;
     }
 
-    .scrolly {
+    .site-description {
         padding-top: 5%;
     }
 
