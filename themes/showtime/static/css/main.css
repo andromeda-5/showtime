@@ -410,13 +410,14 @@ br {
     /*position: relative;
     display: flex;*/
     /* padding-left: 15%; */
-    padding-right: 9%; 
+    /*padding-right: 9%; */ 
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 20px;
     font-family: "MinervaModern-Regular";
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo {
