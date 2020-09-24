@@ -2,7 +2,10 @@
 <div class="site">
   {{ partial "menu.html" .}}  
   <div class="home">
-    {{ partial "main-desc.html" .}}
-    {{ partial "main-img.html" .}}
+    <div class="welcome-desc">
+      {{ partial "main-desc.html" .}}
+      {{ partial "main-img.html" .}}
+    </div>
+    {{ partial "section.html" .}}
   </div>
 {{ partial "footer.html" .}}

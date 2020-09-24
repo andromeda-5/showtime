@@ -11,6 +11,7 @@
 }
 
 .home {
+    font-family: 'MinervaModern-Regular';
     margin-bottom: 10%;
 }
 
@@ -21,6 +22,7 @@
 }
 
 .site-description {
+    margin-right: 50%;
     margin-top: 15%;
     margin-bottom: 8%;
 }
@@ -39,10 +41,9 @@ video {
     /* left: 50%; */
     /*transform: translate(-50%, -50%);*/
     color: #464e59;
-    font-family: 'MinervaModern-Regular';
     /*font-size: 18px;*/
     /*opacity: 1;*/
-    margin-right: 50%;
+    /*margin-right: 50%;*/
     /* margin-left: 15%; */
 }
 
@@ -284,6 +285,27 @@ input {
     color: red;
 }
 
+.section-display {
+    margin-top: 8%;
+}
+
+.section-display img {
+  width: 32.9%;
+  margin-right: 5px;
+}
+
+.section-display:first-child {
+  margin-left: 6px;
+}
+
+.section-display-info {
+  margin-left: 50%;
+}
+
+.cacti-title {
+  margin-bottom: 2%;
+}
+
 .footer-of-sorts {
     margin-right: -5.5%; 
     margin-left: -5.5%;
@@ -437,7 +459,7 @@ br {
 .menu-logo {
     text-decoration: none;
     
-    pdisplay:flex;
+    display:flex;
     align-items: center;
 }
 
@@ -478,6 +500,10 @@ br {
   display: block;
   height: 100px; /* fixed header height*/
   margin: -100px 0 0; /* negative fixed header height */
+}
+
+.welcome-desc {
+  margin-bottom: 8%;
 }
 
 /* mobile screen */
