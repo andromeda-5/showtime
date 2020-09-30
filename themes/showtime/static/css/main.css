@@ -285,6 +285,16 @@ input {
     color: red;
 }
 
+.section-one {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.section-two {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
 .section-display {
     margin-top: 8%;
 }
@@ -294,16 +304,23 @@ input {
   margin-right: 5px;
 }
 
+.section-display-first img {
+  width: 19.2%;
+  margin-right: 5px;
+}
+
 .section-display:first-child {
   margin-left: 6px;
 }
 
 .section-display-info-one {
+  margin-bottom: 8%;
   margin-left: 50%;
 }
 
 .section-display-info-two {
   margin-right: 50%;
+  margin-bottom: 8%;
 }
 .section-title {
   margin-bottom: 2%;
